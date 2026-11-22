@@ -1,0 +1,7 @@
+FROM citycase/assessment2:1.0
+
+WORKDIR /app
+
+COPY checkstatus.sh .
+
+CMD ["sh", "/app/checkstatus.sh"]
