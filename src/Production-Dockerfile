@@ -1,6 +1,4 @@
-FROM alpine:3.22
-
-RUN apk add --no-cache postgresql-client
+FROM citycase/assessment2:1.0
 
 WORKDIR /app
 
